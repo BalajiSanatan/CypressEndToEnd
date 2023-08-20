@@ -1,0 +1,19 @@
+{
+
+  "login":
+  {
+    "username":"abcd2212@gmail.com",
+    "password":"abcd22"
+
+  },
+
+  "product":{
+     "productName":"MacBook"
+
+  },
+  "message":{
+    "success":"Success: You have added MacBook to your shopping cart!"
+
+  }
+
+}

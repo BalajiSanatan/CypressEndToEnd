@@ -14,7 +14,7 @@ export class registerPage{
 
     openURL()
     {
-        cy.visit('https://naveenautomationlabs.com/opencart/index.php?route=account/register')
+        cy.visit(Cypress.env('URL'))
     }
     enterFirstName(fName)
     {
