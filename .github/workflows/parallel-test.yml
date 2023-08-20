@@ -1,0 +1,28 @@
+name: Parallel Execution Cypress Tests
+
+on: push
+
+jobs:
+  addToCart:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        with:
+         command: npm run test:addToCart
+  
+  registerFlow:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        with:
+         command: npm run test:registerFlow       
