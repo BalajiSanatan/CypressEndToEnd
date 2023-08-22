@@ -18,8 +18,6 @@ describe('register page test',()=>{
         regPage.selectPolicy()
         regPage.clickOnContioune()
 
-
-
     })
 
 

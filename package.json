@@ -15,7 +15,11 @@
   "author": "Balaji",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "cypress": "^12.17.4",
     "cypress-mochawesome-reporter": "^3.5.1"
+  },
+  "dependencies": {
+    "neat-csv": "^5.2.0"
   }
 }
